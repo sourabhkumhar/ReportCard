@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    text-align: center;
+    background-color: rgb(83, 21, 21);
+    color: white;
+    padding: 100px;
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    background-color: #252525;
+    padding: 20px 5px;
+}
+
+.list {
+    list-style: none;
+}
+
+.a-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.a-link:hover {
+    color: #999999;
+}
+
+.link-home {
+    background: rgb(0, 123, 194);
+    padding: 20px 15px;
+    font-weight: bold;
+}
+.link-home:hover {
+    background-color: rgb(0, 67, 105);
+    color: white;
+}
+
+.nav-button {
+    float: right;
+    border: none;
+    background-color: #252525;
+    color: white;
+    border: 3px solid #007BC2;
+    padding: 10px 30px;
+    margin: -11px 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #007BC2;
+}
+
+.fa {
+    margin: 0%;
+    padding: 0 15px;
+}
+.fa-code {
+margin-top: 10px;
+margin-right: 10px;
+margin-left: -4px;
+}
+
+.dot {
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+    background-color: #007BC2;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    margin: 10px;
+    display: flex;
+    transition: 0.03s;
+}
+.dev {
+    padding: 15px 0 0 0;
+    font-size: large;
+    cursor: pointer;
+    display: none;
+}
+#dev {
+    text-decoration: none;
+    color: white;
+}
+
+.dot:hover {
+    display: flex;
+    width: 250px;
+    border-radius: 45px;
+}
+.dot:hover > .dev{
+    display: block;
+}

@@ -1,0 +1,40 @@
+.error {
+    float: center;
+    color: white;
+    background-color: #f44336;
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 88%;
+}
+
+.empty {
+    float: center;
+    color: white;
+    background-color: #ff9800;
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 88%;
+}
+
+.success {
+    float: center;
+    color: white;
+    background-color: #04AA6D;
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 88%;
+}
+
+
+/* .closebtn {
+    float: right;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+  } */
