@@ -177,10 +177,7 @@ CREATE TABLE `teachers` (
 --
 
 INSERT INTO `teachers` (`teacher_name`, `username`, `email`, `teacherOf`, `teacherMob_number`, `password`, `dt`) VALUES
-('admin', 'admin', 'admin@gmail.com', 'BCA III yr', 1234567890, '$2y$10$wfBm0t72l4Xa3cQR6L75e.dXaZgUPldCM391ZcTtR2gnT6Yf9QMEC', '2021-12-27 15:15:57'),
-('Monika Kumhar', 'monikakumhar', 'monikakumhar00@gmail.com', 'BCA I yr', 9001243131, '$2y$10$o85ui2hvG9/yTc5ZOp.tJu0IwGs/dJ7UFzzo1O6QkmzTM7FjhVjMi', '2021-12-30 18:30:37'),
-('Sourabh Kumhar', 'sourabhkumhar', 'mr.sourabhkumhar@gmail.com', 'BCA II yr', 8560842664, '$2y$10$9dif81DD/v6vNv0dSoP6W.LNck/ejfYXasScpAvswNNQ3ElmfBXYe', '2021-12-27 22:25:37');
-
+('admin', 'admin', 'admin@gmail.com', 'BCA III yr', 1234567890, '$2y$10$wfBm0t72l4Xa3cQR6L75e.dXaZgUPldCM391ZcTtR2gnT6Yf9QMEC', '2021-12-27 15:15:57');
 --
 -- Indexes for dumped tables
 --
