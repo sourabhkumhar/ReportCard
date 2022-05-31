@@ -1,12 +1,11 @@
 <?php
 session_start();
+include("connect.php");
 
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
     header("location: login.php");
     exit;
 }
-
-include("connect.php");
 
 $showEmpty = false;
 $showError = false;

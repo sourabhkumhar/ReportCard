@@ -61,9 +61,13 @@ else {
     <div class="show-container">
 
         <header>
+<<<<<<< Updated upstream
             Bhupal Nobles University
+=======
+            Bhupal Nobles' University
+>>>>>>> Stashed changes
         </header>
-        <p class="tagline"><strong>Address:</strong> ReportCard in htdocs in Localhost</p>
+        <!-- <p class="tagline"><strong>Address:</strong> ReportCard in htdocs in Localhost</p> -->
 
         <hr>
 

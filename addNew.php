@@ -79,7 +79,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     <link rel="stylesheet" href="Styling/alertBox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Report Card Tool</title>
+    <title>Add New Teacher</title>
 </head>
 
 <body>

@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="Styling/login.css">
     <link rel="stylesheet" href="Styling/alertBox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Report Card Tool</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -81,8 +81,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h1>Login</h1>
 
             <form action="login.php" method="POST">
-                <input type="text" name="username" id="inputForm" placeholder="Username"><br>
-                <input type="password" name="password" id="inputForm" placeholder="Password"><br>
+                <input type="text" name="username" id="inputForm" placeholder="Username" required><br>
+                <input type="password" name="password" id="inputForm" placeholder="Password" required><br>
                 <button id="login-button" type="submit">Login</button>
             </form>
             <sub><a class="link" href="index.php">Visit Home page if you are student</a></sub>

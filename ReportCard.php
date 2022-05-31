@@ -64,7 +64,7 @@ else {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="Styling/ReportCard.css">
     <meta name="ReportCardport" content="width=device-width, initial-scale=1.0">
-    <title>ReportCard Report Card</title>
+    <title>Report Card</title>
 </head>
 <body>
 
@@ -74,9 +74,13 @@ else {
     <div class="show-container">
 
         <header>
+<<<<<<< Updated upstream
             Bhupal Nobles University
+=======
+            Bhupal Nobles' University
+>>>>>>> Stashed changes
         </header>
-        <p class="tagline"><strong>Address:</strong> ReportCard in htdocs in Localhost</p>
+        <!-- <p class="tagline"><strong>Address:</strong> ReportCard in htdocs in Localhost</p> -->
 
         <hr>
 

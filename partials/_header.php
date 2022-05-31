@@ -1,5 +1,9 @@
 <?php
 $bn = "Bhupal Nobles' University";
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     $loggedin = true;
 }
@@ -64,10 +68,20 @@ else {
     }
 
     echo "<span class='dot'><h2 align='right'><i class='fa fa-code' style='font-size:36px'></i></h2><div class='dev'><a id='dev' onclick='developer()'>Sourabh Kumhar</a></div></span>";
+<<<<<<< Updated upstream
 ?>
 
+=======
+
+?>
+
+>>>>>>> Stashed changes
 <script>
     function developer() {
         alert('Hi Viewer, I am Sourabh Kumhar - Developer of this Student Report Management System Website!!');
     }
+<<<<<<< Updated upstream
 </script>
+=======
+</script>
+>>>>>>> Stashed changes

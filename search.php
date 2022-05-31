@@ -7,14 +7,6 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 }
 
 include 'connect.php';
-
-// if(isset($_GET['stu_enrollNo'])) {
-//     if($_SESSION['teacherOf'] == "BCA I yr") {
-//         $sql = "SELECT * FROM `bca_1yr` WHERE `stu_enrollNo` = '" . $_GET['stu_enrollNo'] . "'";
-//         $result = mysqli_query($conn, $sql);
-//         $row = mysqli_fetch_row($result);
-//     }
-// }
 ?>
 
 <!DOCTYPE html>
@@ -171,7 +163,7 @@ echo "<table>
     
     if(isset($_GET['stu_name'])) {
         if($_SESSION['teacherOf'] == "BCA I yr") {
-            $sql = "SELECT * FROM `bca_1yr` WHERE `stu_enrollNo` = '" . $_GET['stu_enrollNo'] . "'";
+            $sql = "SELECT * FROM `bca_1yr` WHERE `stu_name` = '" . $_GET['stu_name'] . "'";
             $result = mysqli_query($conn, $sql);
         
             if(mysqli_num_rows($result) == 0) {

@@ -73,13 +73,14 @@ margin-left: -4px;
     bottom: 5px;
     right: 5px;
     margin: 10px;
-    display: flex;
-    transition: 0.03s;
+    transition: 0.1s;
+    
 }
 .dev {
     padding: 15px 0 0 0;
     font-size: large;
     cursor: pointer;
+    display: flex;
     display: none;
 }
 #dev {
@@ -91,6 +92,7 @@ margin-left: -4px;
     display: flex;
     width: 250px;
     border-radius: 45px;
+    transition: 0.1s;
 }
 .dot:hover > .dev{
     display: block;
