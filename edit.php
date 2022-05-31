@@ -110,8 +110,7 @@ if (!empty($_REQUEST['stu_enrollNo'])) {
                         `Mid_Perc` = '$Mid_Perc',
                         `Ann_Perc` = '$Ann_Perc',
                         `Overall_Perc` = '$Overall_Perc',
-                        `Result` = '$FinalResult',
-                        `dt` = 'current_timestamp()'
+                        `Result` = '$FinalResult'
                     
                     WHERE `stu_enrollNo` = '$stu_enrollNo'";
 
@@ -201,8 +200,7 @@ if (!empty($_REQUEST['stu_enrollNo'])) {
                         `Mid_Perc` = '$Mid_Perc',
                         `Ann_Perc` = '$Ann_Perc',
                         `Overall_Perc` = '$Overall_Perc',
-                        `Result` = '$FinalResult',
-                        `dt` = 'current_timestamp()'
+                        `Result` = '$FinalResult'
                     
                     WHERE `stu_enrollNo` = '$stu_enrollNo'";
 
@@ -288,8 +286,7 @@ if (!empty($_REQUEST['stu_enrollNo'])) {
                         `Mid_Perc` = '$Mid_Perc',
                         `Ann_Perc` = '$Ann_Perc',
                         `Overall_Perc` = '$Overall_Perc',
-                        `Result` = '$FinalResult',
-                        `dt` = 'current_timestamp()'
+                        `Result` = '$FinalResult'
                     
                     WHERE `stu_enrollNo` = '$stu_enrollNo'";
 

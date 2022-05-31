@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
             if($password == $cpassword) {
                 $hash = password_hash("$password", PASSWORD_DEFAULT);
 
-                $sql = "INSERT INTO `teachers` (`teacher_name`, `username`, `email`, `teacherOf`, `teacherMob_number`, `password`, `dt`) VALUES ('$teacher_name', '$username', '$email', '$teacherOf', '$teacherMob', '$hash', current_timestamp())";
+                $sql = "INSERT INTO `teachers` (`teacher_name`, `username`, `email`, `teacherOf`, `teacherMob_number`, `password`) VALUES ('$teacher_name', '$username', '$email', '$teacherOf', '$teacherMob', '$hash')";
                 $result = mysqli_query($conn, $sql);
 
                 if($result) {

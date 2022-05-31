@@ -81,7 +81,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                     $FinalResult = "ABSENT";
                 }
 
-                $sql = "INSERT INTO `bca_1yr` (`stu_name`, `stu_enrollNo`, `stu_rollNo`, `stu_class`, `stu_faName`, `stu_moName`, `stu_sess`, `stu_mobileNo`, `Mid_BCA111`, `Mid_BCA112`, `Mid_BCA113`, `Mid_BCA114`, `Mid_BCA115`, `Mid_BCA116`, `Ann_BCA111`, `Ann_BCA112`, `Ann_BCA113`, `Ann_BCA114`, `Ann_BCA115`, `Ann_BCA116`, `Mid_Total`, `Ann_Total`, `Mid_Perc`, `Ann_Perc`, `Overall_Perc`, `Result`, `dt`) VALUES ('$stu_name', '$stu_enrollNo', '$stu_rollNo', '$stu_class', '$stu_faName', '$stu_moName	', '$stu_sess', '$stu_mobileNo', '$Mid_BCA111', '$Mid_BCA112', '$Mid_BCA113', '$Mid_BCA114', '$Mid_BCA115', '$Mid_BCA116', '$Ann_BCA111', '$Ann_BCA112', '$Ann_BCA113', '$Ann_BCA114', '$Ann_BCA115', '$Ann_BCA116', '$Mid_Total', '$Ann_Total', '$Mid_Perc', '$Ann_Perc', '$Overall_Perc', '$FinalResult', current_timestamp())";
+                $sql = "INSERT INTO `bca_1yr` (`stu_name`, `stu_enrollNo`, `stu_rollNo`, `stu_class`, `stu_faName`, `stu_moName`, `stu_sess`, `stu_mobileNo`, `Mid_BCA111`, `Mid_BCA112`, `Mid_BCA113`, `Mid_BCA114`, `Mid_BCA115`, `Mid_BCA116`, `Ann_BCA111`, `Ann_BCA112`, `Ann_BCA113`, `Ann_BCA114`, `Ann_BCA115`, `Ann_BCA116`, `Mid_Total`, `Ann_Total`, `Mid_Perc`, `Ann_Perc`, `Overall_Perc`, `Result`) VALUES ('$stu_name', '$stu_enrollNo', '$stu_rollNo', '$stu_class', '$stu_faName', '$stu_moName	', '$stu_sess', '$stu_mobileNo', '$Mid_BCA111', '$Mid_BCA112', '$Mid_BCA113', '$Mid_BCA114', '$Mid_BCA115', '$Mid_BCA116', '$Ann_BCA111', '$Ann_BCA112', '$Ann_BCA113', '$Ann_BCA114', '$Ann_BCA115', '$Ann_BCA116', '$Mid_Total', '$Ann_Total', '$Mid_Perc', '$Ann_Perc', '$Overall_Perc', '$FinalResult')";
                 
                 $result = mysqli_query($conn, $sql);
 
@@ -148,7 +148,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                     $FinalResult = "ABSENT";
                 }
 
-                $sql = "INSERT INTO `bca_2yr` (`stu_name`, `stu_enrollNo`, `stu_rollNo`, `stu_class`, `stu_faName`, `stu_moName`, `stu_sess`, `stu_mobileNo`, `Mid_BCA221`, `Mid_BCA222`, `Mid_BCA223`, `Mid_BCA224`, `Mid_BCA225`, `Mid_BCA226`, `Ann_BCA221`, `Ann_BCA222`, `Ann_BCA223`, `Ann_BCA224`, `Ann_BCA225`, `Ann_BCA226`, `Mid_Total`, `Ann_Total`, `Mid_Perc`, `Ann_Perc`, `Overall_Perc`, `Result`, `dt`) VALUES ('$stu_name', '$stu_enrollNo', '$stu_rollNo', '$stu_class', '$stu_faName', '$stu_moName', '$stu_sess', '$stu_mobileNo', '$Mid_BCA221', '$Mid_BCA222', '$Mid_BCA223', '$Mid_BCA224', '$Mid_BCA225', '$Mid_BCA226', '$Ann_BCA221', '$Ann_BCA222', '$Ann_BCA223', '$Ann_BCA224', '$Ann_BCA225', '$Ann_BCA226', '$Mid_Total', '$Ann_Total', '$Mid_Perc', '$Ann_Perc', '$Overall_Perc', '$FinalResult', current_timestamp())";
+                $sql = "INSERT INTO `bca_2yr` (`stu_name`, `stu_enrollNo`, `stu_rollNo`, `stu_class`, `stu_faName`, `stu_moName`, `stu_sess`, `stu_mobileNo`, `Mid_BCA221`, `Mid_BCA222`, `Mid_BCA223`, `Mid_BCA224`, `Mid_BCA225`, `Mid_BCA226`, `Ann_BCA221`, `Ann_BCA222`, `Ann_BCA223`, `Ann_BCA224`, `Ann_BCA225`, `Ann_BCA226`, `Mid_Total`, `Ann_Total`, `Mid_Perc`, `Ann_Perc`, `Overall_Perc`, `Result`) VALUES ('$stu_name', '$stu_enrollNo', '$stu_rollNo', '$stu_class', '$stu_faName', '$stu_moName', '$stu_sess', '$stu_mobileNo', '$Mid_BCA221', '$Mid_BCA222', '$Mid_BCA223', '$Mid_BCA224', '$Mid_BCA225', '$Mid_BCA226', '$Ann_BCA221', '$Ann_BCA222', '$Ann_BCA223', '$Ann_BCA224', '$Ann_BCA225', '$Ann_BCA226', '$Mid_Total', '$Ann_Total', '$Mid_Perc', '$Ann_Perc', '$Overall_Perc', '$FinalResult')";
                 
                 $result = mysqli_query($conn, $sql);
 
@@ -213,7 +213,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                     $FinalResult = "ABSENT";
                 }
 
-                $sql = "INSERT INTO `bca_3yr` (`stu_name`, `stu_enrollNo`, `stu_rollNo`, `stu_class`, `stu_faName`, `stu_moName`, `stu_sess`, `stu_mobileNo`, `Mid_BCA331`, `Mid_BCA332`, `Mid_BCA333`, `Mid_BCA334`, `Mid_BCA335`, `Ann_BCA331`, `Ann_BCA332`, `Ann_BCA333`, `Ann_BCA334`, `Ann_BCA335`, `Mid_Total`, `Ann_Total`, `Mid_Perc`, `Ann_Perc`, `Overall_Perc`, `Result`, `dt`) VALUES ('$stu_name', '$stu_enrollNo', '$stu_rollNo', '$stu_class', '$stu_faName', '$stu_moName	', '$stu_sess', '$stu_mobileNo', '$Mid_BCA331', '$Mid_BCA332', '$Mid_BCA333', '$Mid_BCA334', '$Mid_BCA335',  '$Ann_BCA331', '$Ann_BCA332', '$Ann_BCA333', '$Ann_BCA334', '$Ann_BCA335', '$Mid_Total', '$Ann_Total', '$Mid_Perc', '$Ann_Perc', '$Overall_Perc', '$FinalResult', current_timestamp())";
+                $sql = "INSERT INTO `bca_3yr` (`stu_name`, `stu_enrollNo`, `stu_rollNo`, `stu_class`, `stu_faName`, `stu_moName`, `stu_sess`, `stu_mobileNo`, `Mid_BCA331`, `Mid_BCA332`, `Mid_BCA333`, `Mid_BCA334`, `Mid_BCA335`, `Ann_BCA331`, `Ann_BCA332`, `Ann_BCA333`, `Ann_BCA334`, `Ann_BCA335`, `Mid_Total`, `Ann_Total`, `Mid_Perc`, `Ann_Perc`, `Overall_Perc`, `Result`) VALUES ('$stu_name', '$stu_enrollNo', '$stu_rollNo', '$stu_class', '$stu_faName', '$stu_moName	', '$stu_sess', '$stu_mobileNo', '$Mid_BCA331', '$Mid_BCA332', '$Mid_BCA333', '$Mid_BCA334', '$Mid_BCA335',  '$Ann_BCA331', '$Ann_BCA332', '$Ann_BCA333', '$Ann_BCA334', '$Ann_BCA335', '$Mid_Total', '$Ann_Total', '$Mid_Perc', '$Ann_Perc', '$Overall_Perc', '$FinalResult')";
                 
                 $result = mysqli_query($conn, $sql);
 
