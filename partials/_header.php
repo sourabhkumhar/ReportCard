@@ -21,7 +21,7 @@ else {
                     <a class="a-link" href="search.php"><i class="fa fa-search"></i></a>
                     <a class="a-link" href="setting.php"><i class="fa fa-cogs"></i></a>
 
-                    <a href="/ReportCard/logout.php"><button class="nav-button">Logout</button></a>
+                    <a href="logout.php"><button class="nav-button">Logout</button></a>
                 </li>
             </ul>
         </nav>';
@@ -41,8 +41,8 @@ else {
                     <a class="a-link" href="search.php"><i class="fa fa-search"></i></a>
                     <a class="a-link" href="setting.php"><i class="fa fa-cogs"></i></a>
 
-                    <a href="/ReportCard/logout.php"><button class="nav-button">Logout</button></a>
-                    <a href="/ReportCard/addNew.php"><button class="nav-button">Add New Teacher</button></a>
+                    <a href="logout.php"><button class="nav-button">Logout</button></a>
+                    <a href="addNew.php"><button class="nav-button">Add New Teacher</button></a>
                 </li>
             </ul>
         </nav>';
@@ -57,7 +57,7 @@ else {
                 <ul>
                     <li class="list">
                           <a class="a-link link-home" href="index.php">Get Marksheet</a>
-                          <a href="/ReportCard/login.php"><button class="nav-button btn-login">Login</button></a>  
+                          <a href="login.php"><button class="nav-button btn-login">Login</button></a>  
                     </li>
                 </ul>
         </nav>';
