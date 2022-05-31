@@ -68,6 +68,10 @@ else {
 
 <script>
     function developer() {
-        alert('Hi Viewer, I am Sourabh Kumhar - Developer of this Student Report Management System Website!!');
+        let profile = confirm('Hi Viewer, I am Sourabh Kumhar - Developer of this Student Report Management System Website!! \n\nDo you want to visit my LinkedIn?');
+
+        if(profile) {
+            location.href = "https://linkedin.com/in/sourabhkumhar";
+        }
     }
 </script>
