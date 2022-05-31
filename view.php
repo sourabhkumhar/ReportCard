@@ -61,7 +61,7 @@ else {
     <div class="show-container">
 
         <header>
-            XYZ College
+            Bhupal Nobles University
         </header>
         <p class="tagline"><strong>Address:</strong> ReportCard in htdocs in Localhost</p>
 

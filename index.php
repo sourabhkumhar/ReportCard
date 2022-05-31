@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href="Styling/login.css">
     <link rel="stylesheet" href="Styling/alertBox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Report Card - XYZ College</title>
+    <title>Report Card - Bhupal Nobles University</title>
 </head>
 <body>
     <?php include 'partials/_header.php'; ?>

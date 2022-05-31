@@ -1,5 +1,5 @@
 <?php
-
+$bn = "Bhupal Nobles' University";
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     $loggedin = true;
 }
@@ -9,7 +9,7 @@ else {
     
     if($loggedin == true && $_SESSION['username'] != "admin") {
         echo '<header>
-        <h1><a style="text-decoration: none; color: white; font-size: 200%" href="index.php">XYZ College</a></h1>
+        <h1><a style="text-decoration: none; color: white; font-size: 200%" href="index.php">' . $bn . '</a></h1>
         <i><sub>Welcome, ' . $_SESSION['username'] . '</sub></i>
         </header>
         <nav class="navbar">
@@ -29,7 +29,7 @@ else {
 
     if($loggedin == true && $_SESSION['username'] == "admin"){
         echo '<header>
-        <h1><a style="text-decoration: none; color: white; font-size: 200%" href="index.php">XYZ College</a></h1>
+        <h1><a style="text-decoration: none; color: white; font-size: 200%" href="index.php">' . $bn . '</a></h1>
         <i><sub>Welcome, ' . $_SESSION['username'] . '</sub></i>
         </header>
         <nav class="navbar">
@@ -50,18 +50,24 @@ else {
 
     if($loggedin == false) {
         echo '<header>
-        <h1><a style="text-decoration: none; color: white; font-size: 200%" href="index.php">XYZ College</a></h1>
+        <h1><a style="text-decoration: none; color: white; font-size: 200%" href="index.php">' . $bn . '</a></h1>
+        <i><sub>Student Report Management System</sub></i>
     </header>
         <nav class="navbar">
                 <ul>
                     <li class="list">
-                          <a class="a-link link-home" href="index.php">Home</a>
+                          <a class="a-link link-home" href="index.php">Get Marksheet</a>
                           <a href="/ReportCard/login.php"><button class="nav-button btn-login">Login</button></a>  
                     </li>
                 </ul>
         </nav>';
     }
 
-    echo "<span class='dot'><h2 align='right'><i class='fa fa-code' style='font-size:36px'></i></h2><div class='dev'><a id='dev' href='https://instagram.com/aelaanmusic'>Sourabh Kumhar</a></div></span>";
-
+    echo "<span class='dot'><h2 align='right'><i class='fa fa-code' style='font-size:36px'></i></h2><div class='dev'><a id='dev' onclick='developer()'>Sourabh Kumhar</a></div></span>";
 ?>
+
+<script>
+    function developer() {
+        alert('Hi Viewer, I am Sourabh Kumhar - Developer of this Student Report Management System Website!!');
+    }
+</script>
