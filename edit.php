@@ -16,7 +16,7 @@ $showSuccess = false;
 
 
 <?php
-if (isset($_REQUEST['submit']) && !empty($_REQUEST['stu_enrollNo'])) {
+if (!empty($_REQUEST['stu_enrollNo'])) {
 
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         //Student Data
@@ -392,7 +392,7 @@ if (!isset($_REQUEST['submit']) && isset($_GET['eid'])) {
 ?>
 
     <div class="insert-container">
-        <form action="?submit" method="POST">
+        <form action="edit.php" method="POST">
 
             <div class="stu-data" align="center">
                 <h2 align="center">Edit Student Data</h2>
